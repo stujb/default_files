@@ -4,3 +4,4 @@ curl https://raw.githubusercontent.com/stujb/default_files/master/.bashrc > .bas
 curl https://raw.githubusercontent.com/stujb/default_files/master/.vimrc > .vimrc && \
 vim +PluginInstall +qall
 
+
