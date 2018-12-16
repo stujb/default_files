@@ -43,3 +43,5 @@ alias egrep='egrep --color=auto'
 alias vi="vim"
 
 EDITOR=vi
+export TERM=xterm-256color
+
