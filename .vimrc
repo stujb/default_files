@@ -30,6 +30,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-eunuch'
 Plugin 'tpope/vim-surround'
+Plugin 'tpope/fugitive'
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
 " Git plugin not hosted on GitHub
