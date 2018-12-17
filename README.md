@@ -1,7 +1,9 @@
 git config --global color.ui auto && \
-curl https://raw.githubusercontent.com/stujb/default_files/master/.bashrc > .bashrc && \
+curl https://raw.githubusercontent.com/stujb/default_files/master/.bashrc > ~/.bashrc && \
 . .bashrc && \
-curl https://raw.githubusercontent.com/stujb/default_files/master/.vimrc > .vimrc && \
+curl https://raw.githubusercontent.com/stujb/default_files/master/.vimrc > ~/.vimrc && \
+mkdir ~/bin && \
+curl https://raw.githubusercontent.com/stujb/default_files/master/.oc > ~/bin/.oc && \
 (git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim || true) && \
 vim +PluginInstall +qall
 
