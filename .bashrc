@@ -5,6 +5,10 @@ if [ -f /etc/bashrc ]; then
         . /etc/bashrc
 fi
 
+# Source proxy settings if defined
+if [[ -f  ~/.proxy_settings ]]; then
+    . ~/.proxy_settings
+fi
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
