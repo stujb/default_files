@@ -25,6 +25,8 @@ HISTFILESIZE=2000
 HISTTIMEFORMAT="%d/%m/%y %T "
 alias h="history"
 
+PATH=~/bin:$PATH
+
 # Git specific aliases and functions
 git config --global color.ui auto
 
