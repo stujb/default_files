@@ -25,8 +25,10 @@ HISTFILESIZE=2000
 HISTTIMEFORMAT="%d/%m/%y %T "
 alias h="history"
 
-PS1="[\W \$(~/bin/.oc)]\$ "
+umask 0022
 PATH=~/bin:$PATH
+PS1="[\W \$(~/bin/.oc)]\$ "
+#PS1="[\W \$ "
 
 # Git specific aliases and functions
 git config --global color.ui auto
@@ -42,6 +44,7 @@ alias gp="git push"
 alias gm="git merge"
 alias gs="git status"
 alias gb="git branch"
+alias gz="git checkout master && git fetch && git pull"
 
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
@@ -51,4 +54,3 @@ alias vi="vim"
 
 EDITOR=vi
 export TERM=xterm-256color
-
